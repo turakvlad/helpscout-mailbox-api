@@ -1,0 +1,34 @@
+{
+  "name": "helpscout-mailbox-api",
+  "version": "0.0.0",
+  "description": "Node.js wrapper for Help Scout Mailbox API 2.0.",
+  "keywords": [
+    "api",
+    "helpscout"
+  ],
+  "homepage": "https://github.com/turakvlad/helpscout-mailbox-api#readme",
+  "bugs": "https://github.com/turakvlad/helpscout-mailbox-api/issues",
+  "repository": "turakvlad/helpscout-mailbox-api",
+  "license": "MIT",
+  "author": "Vladyslav Turak <me@vladyslavturak.com>",
+  "files": [
+    "src"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard --env jest && jest --env node"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "bottleneck": "^2.19.5"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nock": "^12.0.1",
+    "prettier": "^1.19.1",
+    "semistandard": "^14.2.0"
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}
