@@ -1,4 +1,4 @@
-# Node.js wrapper for Help Scout Mailbox API 2.0 [![Travis Build Status](https://img.shields.io/travis/turakvlad/helpscout-mailbox-2.0-api.svg)](https://travis-ci.org/turakvlad/helpscout-mailbox-2.0-api) [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard) [![NPM Version](https://img.shields.io/npm/v/helpscout-mailbox-2.0-api.svg)](https://www.npmjs.com/package/helpscout-mailbox-2.0-api)
+# Node.js wrapper for Help Scout Mailbox API 2.0 [![Travis Build Status](https://img.shields.io/travis/turakvlad/helpscout-mailbox-api.svg)](https://travis-ci.org/turakvlad/helpscout-mailbox-api) [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard) [![NPM Version](https://img.shields.io/npm/v/helpscout-mailbox-api.svg)](https://www.npmjs.com/package/helpscout-mailbox-api)
 
 The Node.js wrapper for the [Help Scout Mailbox API 2.0](https://developer.helpscout.com/mailbox-api/). It supports the [OAuth 2.0](#oauth2-flow) and [Client Credentials](#client-credentials-flow) flows.
 
@@ -59,7 +59,7 @@ _Disclaimer: This module is not in any way affiliated to or supported by Help Sc
 This library is distributed via `npm`. To add it as a dependency, run the following command:
 
 ```
-npm install helpscout-mailbox-2.0-api
+npm install helpscout-mailbox-api
 ```
 
 ## Authentication and authorization
@@ -80,7 +80,7 @@ This library can help you to implement the [OAuth2 flow](https://developer.helps
 At first, you need to create an instance of the `HelpScout` class. `authenticationFlow` has to be set to `'OAuth2'`:
 
 ```javascript
-const HelpScout = require('helpscout-mailbox-2.0-api');
+const HelpScout = require('helpscout-mailbox-api');
 const helpscout = new HelpScout({
     clientId: 'your_client_id',
     clientSecret: 'your_client_secret',
@@ -137,7 +137,7 @@ This library can help you to implement the [Client Credentials flow](https://dev
 At first, you need to create an instance of the `HelpScout` class. `authenticationFlow` has to be set to `'clientCredentials'`:
 
 ```javascript
-const HelpScout = require('helpscout-mailbox-2.0-api');
+const HelpScout = require('helpscout-mailbox-api');
 const helpscout = new HelpScout({
     clientId: 'your_application_id',
     clientSecret: 'your_application_secret',
