@@ -1,6 +1,6 @@
 {
   "name": "helpscout-mailbox-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js wrapper for Help Scout Mailbox API 2.0.",
   "keywords": [
     "api",
